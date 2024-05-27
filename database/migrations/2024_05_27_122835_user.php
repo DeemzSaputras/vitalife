@@ -15,8 +15,12 @@ return new class extends Migration
             $table->id('id_user');
             $table->string('nama');
             $table->string('alamat');
-            $table->integer('noHP');
-            $table->foreign('id_pembayaran');
+            $table->foreign('noHP');
+            $table->foreign('id_pembayaran')->references('id_pembayaran')->on('pembayaran');
+            $table->foreign('id_spa')->references('id_spa')->on('spa');
+            $table->foreign('id_spesialis')->references('id_spesialis')->on('spesialis');
+            $table->foreign('id_event')->references('id_event')->on('events');
+            $table->foreign('id_yoga')->references('id_yoga')->on('yoga');
             $table->timestamps();
         });
     }
