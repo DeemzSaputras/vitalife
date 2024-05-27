@@ -20,5 +20,5 @@ Route::get('/home', function () {
 
 Route::get('/maps', function () {
     return view('maps');
-});
+}); 
 

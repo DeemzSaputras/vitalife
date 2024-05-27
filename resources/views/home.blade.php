@@ -11,6 +11,7 @@
 </head>
 
 <body class="h-full">
+  {{-- @section('content') --}}
     <div class="min-h-full">
         <nav class="bg-white" x-data="{ isOpen: false }">
             <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
@@ -578,7 +579,7 @@
               </div>
             </section>
  --}}
-            <section
+            {{-- <section
   class="ezy__contact6 light py-14 md:py-24 text-zinc-900 dark:text-white bg-cover bg-center bg-no-repeat overflow-hidden"
   style="background-image: url(https://cdn.easyfrontend.com/pictures/contact/contact_6.svg)"
 >
@@ -624,7 +625,7 @@
     </div>
   </div>
 </section>
-
+ --}}
 
 
             <!-- About Us -->
@@ -769,6 +770,7 @@
             <a href="https://www.freepik.com/free-photos-vectors/background" class="text-gray-500">Vitalife.</a>
         </footer>
     </div>
+  {{-- @endsection --}}
 
 
 </body>
