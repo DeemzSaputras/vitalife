@@ -14,8 +14,8 @@ Route::get('/dash', function () {
     return view('dashboard');
 });
 
-Route::get('/home', function () {
-    return view('home');
+Route::get('/dashboard/home', function () {
+    return view('dashboard.home');
 });
 
 Route::get('/maps', function () {

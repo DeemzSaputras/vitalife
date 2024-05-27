@@ -17,7 +17,7 @@
             <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
                 <div class="flex h-16 items-center justify-between">
                     <div class="flex items-center">
-                        <img class="h-10 w-25" src="image/LOGO_2.png" alt="Your Company">
+                        <img class="h-10 w-25" src="../image/LOGO_2.png" alt="Your Company">
                         <div class="hidden md:block">
                             <div class="ml-10 flex items-baseline space-x-4">
                                 <!-- Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" -->
@@ -175,7 +175,7 @@
                     <!--Right Col-->
                     <div class="w-full md:w-3/5 py-6 text-center">
                         <div class="shadow-md rounded-lg overflow-hidden">
-                          <img class="w-full h-auto scale-75" src="image/doc2.png" />
+                          <img class="w-full h-auto scale-75" src="../image/doc2.png" />
                         </div>
                       </div>
                   </div>
@@ -187,21 +187,21 @@
                 <div class="flex space-x-20">
                   <a href="#spa" class="flex-shrink-0 ml-8 mr-0 group">
                     <div class="relative p-4 group-hover:shadow-md rounded-lg group-hover:border-gray-500 group-hover:rounded-lg">
-                      <img src="image/spa.png" alt="spa" class="h-32 mb-5">
+                      <img src="../image/spa.png" alt="spa" class="h-32 mb-5">
                       <p class="text-lg font-bold">SPA</p>
                     </div>
                   </a>
                   <div class="flex-shrink-0 w-16"></div>
                   <a href="#yoga" class="flex-shrink-0 ml-8 mr-0 group">
                     <div class="relative p-4 group-hover:shadow-md rounded-lg  group-hover:border-gray-500 group-hover:rounded-lg">
-                      <img src="image/meditation.png" alt="Meditation" class="h-32 mb-5">
+                      <img src="../image/meditation.png" alt="Meditation" class="h-32 mb-5">
                       <p class="text-lg font-bold">YOGA</p>
                     </div>
                   </a>
                   <div class="flex-shrink-0 w-16"></div>
                   <a href="#event" class="flex-shrink-0 ml-8 mr-0 group">
                     <div class="relative p-4 group-hover:shadow-md rounded-lg  group-hover:border-gray-500 group-hover:rounded-lg">
-                      <img src="image/run.png" alt="event" class="h-32 mb-5">
+                      <img src="../image/run.png" alt="event" class="h-32 mb-5">
                       <p class="text-lg font-bold">EVENT</p>
                     </div>
                   </a>
@@ -215,49 +215,49 @@
               <div class="grid grid-cols-4 gap-20"> 
                 <a href="#event" class="flex flex-col items-center group"> 
                   <div class="relative p-3 group-hover:shadow-md rounded-lg group-hover:border-gray-500 group-hover:rounded-lg"> 
-                    <img src="image/anatomy.png" alt="Anatomy" class="h-24 mb-3"> 
+                    <img src="../image/anatomy.png" alt="Anatomy" class="h-24 mb-3"> 
                     <p class="text-base font-bold">Anatomy</p> 
                   </div> 
                 </a> 
                 <a href="#event" class="flex flex-col items-center group"> 
                   <div class="relative p-3 group-hover:shadow-md rounded-lg group-hover:border-gray-500 group-hover:rounded-lg"> 
-                    <img src="image/care.png" alt="Primary Care" class="h-24 mb-3"> 
+                    <img src="../image/care.png" alt="Primary Care" class="h-24 mb-3"> 
                     <p class="text-base font-bold">Primary Care</p> 
                   </div> 
                 </a> 
                 <a href="#event" class="flex flex-col items-center group"> 
                   <div class="relative p-3 group-hover:shadow-md rounded-lg group-hover:border-gray-500 group-hover:rounded-lg"> 
-                    <img src="image/cardiology.png" alt="Cardiology" class="h-24 mb-3"> 
+                    <img src="../image/cardiology.png" alt="Cardiology" class="h-24 mb-3"> 
                     <p class="text-base font-bold">Cardiology</p> 
                   </div> 
                 </a> 
                 <a href="#event" class="flex flex-col items-center group"> 
                   <div class="relative p-3 group-hover:shadow-md rounded-lg group-hover:border-gray-500 group-hover:rounded-lg"> 
-                    <img src="image/skin.png" alt="Skin & Genitals" class="h-24 mb-3"> 
+                    <img src="../image/skin.png" alt="Skin & Genitals" class="h-24 mb-3"> 
                     <p class="text-base font-bold">Skin & Genitals</p> 
                   </div> 
                 </a> 
                 <a href="#event" class="flex flex-col items-center group"> 
                   <div class="relative p-3 group-hover:shadow-md rounded-lg group-hover:border-gray-500 group-hover:rounded-lg"> 
-                    <img src="image/human.png" alt="Human Senses" class="h-24 mb-3"> 
+                    <img src="../image/human.png" alt="Human Senses" class="h-24 mb-3"> 
                     <p class="text-base font-bold">Human Senses</p> 
                   </div> 
                 </a> 
                 <a href="#event" class="flex flex-col items-center group"> 
                   <div class="relative p-3 group-hover:shadow-md rounded-lg group-hover:border-gray-500 group-hover:rounded-lg"> 
-                    <img src="image/psico.png" alt="Piscologist" class="h-24 mb-3"> 
+                    <img src="../image/psico.png" alt="Piscologist" class="h-24 mb-3"> 
                     <p class="text-base font-bold">Piscologist</p> 
                   </div> 
                 </a> 
                 <a href="#event" class="flex flex-col items-center group"> 
                   <div class="relative p-3 group-hover:shadow-md rounded-lg group-hover:border-gray-500 group-hover:rounded-lg"> 
-                    <img src="image/fisio.png" alt="Fisioterapy" class="h-24 mb-3"> 
+                    <img src="../image/fisio.png" alt="Fisioterapy" class="h-24 mb-3"> 
                     <p class="text-base font-bold">Fisioterapy</p> 
                   </div> 
                 </a> 
                 <a href="#event" class="flex flex-col items-center group"> 
                   <div class="relative p-3 group-hover:shadow-md rounded-lg group-hover:border-gray-500 group-hover:rounded-lg"> 
-                    <img src="image/preg.png" alt="Pregnancy" class="h-24 mb-3"> 
+                    <img src="../image/preg.png" alt="Pregnancy" class="h-24 mb-3"> 
                     <p class="text-base font-bold">Pregnancy</p> 
                   </div> 
                 </a> 
@@ -698,7 +698,7 @@
                             </svg>
                             VITALIFE
                         </a> --}}
-                        <img class="h-10 w-25" src="image/LOGO_2.png" alt="Your Company">
+                        <img class="h-10 w-25" src="../image/LOGO_2.png" alt="Your Company">
                     </div>
                     <div class="flex-1">
                         <p class="uppercase text-gray-500 md:mb-6">Links</p>
@@ -775,4 +775,4 @@
 
 </body>
 
-</html>
+</html> 
